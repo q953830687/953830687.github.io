@@ -1,0 +1,180 @@
+/*通栏S*/
+.header .row > div {
+  height: 40px;
+  border: 1px solid gray;
+  text-align: center;
+  line-height: 40px;
+}
+.header .row > div > a {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+}
+.header .row > div:nth-child(n+3) a {
+  margin-left: 10px;
+}
+.header .row > div:first-child {
+  position: relative;
+}
+.header .row > div:first-child img {
+  display: none;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+.header .row > div:first-child:hover img {
+  display: block;
+}
+/*通栏E*/
+/*导航S*/
+.fox-navBar {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.fox-navBar .navbar-brand {
+  color: #777;
+  line-height: 50px;
+  height: 80px;
+}
+.fox-navBar .navbar-brand span {
+  font-size: 50px;
+}
+.fox-navBar .navbar-brand span:first-child {
+  color: red;
+}
+.fox-navBar .navbar-brand span:last-child {
+  color: black;
+}
+.fox-navBar .navbar-brand:hover,
+.fox-navBar .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.fox-navBar .navbar-text {
+  color: #777;
+}
+.fox-navBar .navbar-nav > li > a {
+  height: 80px;
+  line-height: 50px;
+  color: #777;
+}
+.fox-navBar .navbar-nav > li > a:hover,
+.fox-navBar .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+  border-bottom: 3px solid orangered;
+}
+.fox-navBar .navbar-nav > .active > a,
+.fox-navBar .navbar-nav > .active > a:hover,
+.fox-navBar .navbar-nav > .active > a:focus {
+  color: #555;
+}
+.fox-navBar .navbar-nav > .disabled > a,
+.fox-navBar .navbar-nav > .disabled > a:hover,
+.fox-navBar .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.fox-navBar .navbar-toggle {
+  border-color: #ddd;
+  margin-top: 25px;
+}
+.fox-navBar .navbar-toggle:hover,
+.fox-navBar .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.fox-navBar .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.fox-navBar .navbar-collapse,
+.fox-navBar .navbar-form {
+  border-color: #e7e7e7;
+}
+.fox-navBar .navbar-nav > .open > a,
+.fox-navBar .navbar-nav > .open > a:hover,
+.fox-navBar .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .fox-navBar .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .fox-navBar .navbar-nav .open .dropdown-menu > li > a:hover,
+  .fox-navBar .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .fox-navBar .navbar-nav .open .dropdown-menu > .active > a,
+  .fox-navBar .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .fox-navBar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .fox-navBar .navbar-nav .open .dropdown-menu > .disabled > a,
+  .fox-navBar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .fox-navBar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.fox-navBar .navbar-link {
+  color: #777;
+}
+.fox-navBar .navbar-link:hover {
+  color: #333;
+}
+.fox-navBar .btn-link {
+  color: #777;
+}
+.fox-navBar .btn-link:hover,
+.fox-navBar .btn-link:focus {
+  color: #333;
+}
+.fox-navBar .btn-link[disabled]:hover,
+fieldset[disabled] .fox-navBar .btn-link:hover,
+.fox-navBar .navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .fox-navBar .btn-link:focus {
+  color: #ccc;
+}
+/*导航E*/
+/*轮播图S*/
+.banner .banner-a {
+  height: 410px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+.banner .banner-a.banner-img1 {
+  background-image: url("../images/slide_01_2000x410.jpg");
+}
+.banner .banner-a.banner-img2 {
+  background-image: url("../images/slide_02_2000x410.jpg");
+}
+.banner .banner-a.banner-img3 {
+  background-image: url("../images/slide_03_2000x410.jpg");
+}
+.banner .banner-a.banner-img4 {
+  background-image: url("../images/slide_04_2000x410.jpg");
+}
+.banner .moble {
+  display: block;
+  width: 100%;
+}
+.banner .moble img {
+  display: block;
+  width: 100%;
+}
+/*轮播图E*/
+/*信息区域S*/
+.media-test .media-left span {
+  font-size: 40px;
+}
+.media-test a {
+  color: gray;
+}
+.media-test a:hover {
+  color: red;
+}
+/*信息区域E*/

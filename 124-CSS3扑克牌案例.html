@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            height: 100%;
+
+        }
+        body{
+            background-color: rosybrown;
+
+        }
+        .box{
+            width: 310px;
+            height: 441px;
+            margin: 100px auto  ;
+            position: relative;
+            /*阴影*/
+            /*box-shadow: 20px 10px 10px 0 #666;*/
+            /*border-radius: 20px;*/
+            /*transition: all 3s;*/
+        }
+        img{
+            width: 100%;
+            position: absolute;
+            left:0;
+            top: 0;
+            transition: all 2s;
+            /*改变旋转原点*/
+            /*以最下部中心 为原点 旋转*/
+            transform-origin: center bottom;
+            /*阴影加在图片上 展开之后下面的折痕 效果好*/
+            box-shadow: 0px 0px 3px 0 #666;
+            border-radius: 20px;
+        }
+
+
+        .box:hover img:nth-child(6){
+            transform: rotate(-10deg);
+        }
+        .box:hover img:nth-child(5){
+            transform: rotate(-20deg);
+        }
+        .box:hover img:nth-child(4){
+            transform: rotate(-30deg);
+        }
+        .box:hover img:nth-child(3){
+            transform: rotate(-40deg);
+        }
+        .box:hover img:nth-child(2){
+            transform: rotate(-50deg);
+        }
+        .box:hover img:nth-child(1){
+            transform: rotate(-60deg);
+        }
+
+
+        .box:hover img:nth-child(8){
+            transform: rotate(10deg);
+        }
+        .box:hover img:nth-child(9){
+            transform: rotate(20deg);
+        }
+        .box:hover img:nth-child(10){
+            transform: rotate(30deg);
+        }
+        .box:hover img:nth-child(11){
+            transform: rotate(40deg);
+        }
+        .box:hover img:nth-child(12){
+            transform: rotate(50deg);
+        }
+        .box:hover img:nth-child(13){
+            transform: rotate(60deg);
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+    <img src="imag/pk1.png" alt="">
+</div>
+</body>
+</html>
